@@ -5,6 +5,9 @@ mcp>=1.12.0
 fastapi
 uvicorn[standard]
 
+# CLI interface
+click>=8.0.0
+
 # Data validation and serialization
 pydantic>=2.5.0
 
@@ -39,3 +42,6 @@ lxml>=4.9.0
 
 # Optional: For rate limiting and retries
 tenacity>=8.2.0
+
+# ASGI server
+starlette>=0.27.0
