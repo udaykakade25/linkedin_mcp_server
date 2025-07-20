@@ -1,0 +1,41 @@
+# Core MCP framework
+mcp>=1.12.0
+
+# Web framework and server
+fastapi
+uvicorn[standard]
+
+# Data validation and serialization
+pydantic>=2.5.0
+
+# HTTP client libraries
+aiohttp>=3.8.0
+httpx>=0.27.0
+
+# Environment and configuration management
+python-dotenv>=1.0.0
+
+# Type hints support
+typing-extensions
+
+# LinkedIn API integration
+# Note: There's no official LinkedIn SDK, so we'll use requests/httpx for REST API calls
+# linkedin-api is an unofficial library that can be used as an alternative
+# linkedin-api>=2.0.0
+
+# Authentication and security
+python-jose[cryptography]>=3.3.0
+cryptography>=3.4.8
+
+# Date/time handling for LinkedIn data
+python-dateutil>=2.8.2
+
+# JSON handling and parsing
+orjson>=3.8.0
+
+# Optional: For handling LinkedIn's specific data formats
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Optional: For rate limiting and retries
+tenacity>=8.2.0
